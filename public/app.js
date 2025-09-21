@@ -428,7 +428,7 @@ function submitCaptcha() {
     .catch(error => {
       // 恢复按钮状态
       submitBtn.disabled = false;
-      submitBtn.textContent = '验证';
+      submitBtn.textContent = '👉戳我验证';
       
       showMessage('验证失败：网络错误', false);
       console.error('验证失败:', error);
