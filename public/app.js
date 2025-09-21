@@ -379,7 +379,7 @@ function submitCaptcha() {
     .then(data => {
       // 恢复按钮状态
       submitBtn.disabled = false;
-      submitBtn.textContent = '验证';
+      submitBtn.textContent = '👉戳我验证';
       
       // 显示结果消息
       showMessage(data.message, data.success);
